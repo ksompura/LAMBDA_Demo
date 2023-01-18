@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas
+import random
 
 df = pandas.read_csv('../data/atlantis.csv')
 x = df['year']
